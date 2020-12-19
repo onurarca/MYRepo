@@ -1,0 +1,41 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Demo Guru Test">
+
+    <test name="Login Test ">
+        <parameter name="driverName" value="chrome"></parameter>
+        <parameter name="username" value="mngr295333"></parameter>
+        <parameter name="password" value="vuzUpav"></parameter>
+        <classes>
+            <class name="selenium_class.com.Tests.LoginTest"></class>
+        </classes>
+    </test>
+
+    <test name="New Customer Test ">
+        <parameter name="driverName" value="chrome"></parameter>
+        <parameter name="username" value="mngr295333"></parameter>
+        <parameter name="password" value="vuzUpav"></parameter>
+        <classes>
+            <class name="selenium_class.com.Tests.NewCustomerTest"></class>
+        </classes>
+    </test>
+
+
+    <test name="Add New Customer ">
+        <parameter name="driverName" value="chrome"></parameter>
+        <classes>
+            <class name="selenium_class.com.Tests.AddNewCustomerTest"></class>
+        </classes>
+    </test>
+
+
+    <test name="Edit Customer Test">
+        <parameter name="driverName" value="chrome"></parameter>
+        <parameter name="username" value="mngr295333"></parameter>
+        <parameter name="password" value="vuzUpav"></parameter>
+        <classes>
+            <class name="selenium_class.com.Tests.EditCustomerTest"></class>
+        </classes>
+    </test>
+
+</suite>

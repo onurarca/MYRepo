@@ -1,0 +1,9 @@
+<suite name="XML Suite">
+    <test name = "Multiple Runner">
+        <classes>
+            <class name="selenium_class.ActionsPractice.ActionsIntro"></class>
+            <class name ="selenium_class.AlertPractice.AlertTest"></class>
+            <class name = "selenium_class.Sentrifugo.Tests.LoginTest"></class>
+        </classes>
+    </test>
+</suite>

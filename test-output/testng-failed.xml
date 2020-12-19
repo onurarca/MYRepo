@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [XML Suite]">
+  <test thread-count="5" name="Multiple Runner(failed)">
+    <classes>
+      <class name="selenium_class.Sentrifugo.Tests.LoginTest">
+        <methods>
+          <include name="setUpPage"/>
+          <include name="setUp"/>
+          <include name="logInTest1"/>
+        </methods>
+      </class> <!-- selenium_class.Sentrifugo.Tests.LoginTest -->
+    </classes>
+  </test> <!-- Multiple Runner(failed) -->
+</suite> <!-- Failed suite [XML Suite] -->

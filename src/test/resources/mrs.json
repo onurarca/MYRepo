@@ -1,0 +1,555 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-11-22T19:43:53.186Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5002500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "cucumber.stepdefs.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 71,
+        "name": "Registera patient variant 2",
+        "description": "",
+        "id": "login-to-demo.openmrs-page;registera-patient-variant-2;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 998700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "cucumber.stepdefs.Hooks.cleanup()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6242436900,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "user is logged in to demo.openmrs.org as admin",
+            "match": {
+              "location": "cucumber.stepdefs.LoggingIn.user_is_logged_in_to_demo_openmrs_org_as_admin()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2001400,
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "user creates a new patient with following data: \"Onur\", \"Arca\", \"M\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Onur\"",
+                  "offset": 48
+                },
+                {
+                  "val": "\"Arca\"",
+                  "offset": 56
+                },
+                {
+                  "val": "\"M\"",
+                  "offset": 64
+                }
+              ],
+              "location": "cucumber.stepdefs.LoggingIn.user_creates_a_new_patient_with_following_data(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000200,
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "with extra information:\"13\", \"12\", \"1993\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"13\"",
+                  "offset": 23
+                },
+                {
+                  "val": "\"12\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"1993\"",
+                  "offset": 35
+                }
+              ],
+              "location": "cucumber.stepdefs.LoggingIn.with_extra_information(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 14011500,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "with address:\"AustinTX\", \"Austin\", \"Texas\", \"USA\", and \"78748\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"AustinTX\"",
+                  "offset": 13
+                },
+                {
+                  "val": "\"Austin\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"Texas\"",
+                  "offset": 35
+                },
+                {
+                  "val": "\"USA\"",
+                  "offset": 44
+                },
+                {
+                  "val": "\"78748\"",
+                  "offset": 55
+                }
+              ],
+              "location": "cucumber.stepdefs.LoggingIn.with_address_and(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 999200,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "new patient has been registered with \"Onur\" and \"Arca\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Onur\"",
+                  "offset": 37
+                },
+                {
+                  "val": "\"Arca\"",
+                  "offset": 48
+                }
+              ],
+              "location": "cucumber.stepdefs.LoggingIn.new_patient_has_been_registered_with_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3003200,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "address of the new patient is \"AustinTX\", \"Austin\", \"Texas\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"AustinTX\"",
+                  "offset": 30
+                },
+                {
+                  "val": "\"Austin\"",
+                  "offset": 42
+                },
+                {
+                  "val": "\"Texas\"",
+                  "offset": 52
+                }
+              ],
+              "location": "cucumber.stepdefs.LoggingIn.address_of_the_new_patient_is(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@outline"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-22T19:43:59.870Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "cucumber.stepdefs.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 72,
+        "name": "Registera patient variant 2",
+        "description": "",
+        "id": "login-to-demo.openmrs-page;registera-patient-variant-2;;3",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "cucumber.stepdefs.Hooks.cleanup()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7005500,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "user is logged in to demo.openmrs.org as admin",
+            "match": {
+              "location": "cucumber.stepdefs.LoggingIn.user_is_logged_in_to_demo_openmrs_org_as_admin()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000200,
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "user creates a new patient with following data: \"Jonny\", \"Walker\", \"M\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Jonny\"",
+                  "offset": 48
+                },
+                {
+                  "val": "\"Walker\"",
+                  "offset": 57
+                },
+                {
+                  "val": "\"M\"",
+                  "offset": 67
+                }
+              ],
+              "location": "cucumber.stepdefs.LoggingIn.user_creates_a_new_patient_with_following_data(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "with extra information:\"13\", \"12\", \"1993\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"13\"",
+                  "offset": 23
+                },
+                {
+                  "val": "\"12\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"1993\"",
+                  "offset": 35
+                }
+              ],
+              "location": "cucumber.stepdefs.LoggingIn.with_extra_information(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "with address:\"AustinTX\", \"Austin\", \"Texas\", \"USA\", and \"78748\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"AustinTX\"",
+                  "offset": 13
+                },
+                {
+                  "val": "\"Austin\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"Texas\"",
+                  "offset": 35
+                },
+                {
+                  "val": "\"USA\"",
+                  "offset": 44
+                },
+                {
+                  "val": "\"78748\"",
+                  "offset": 55
+                }
+              ],
+              "location": "cucumber.stepdefs.LoggingIn.with_address_and(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "new patient has been registered with \"Jonny\" and \"Walker\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Jonny\"",
+                  "offset": 37
+                },
+                {
+                  "val": "\"Walker\"",
+                  "offset": 49
+                }
+              ],
+              "location": "cucumber.stepdefs.LoggingIn.new_patient_has_been_registered_with_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "address of the new patient is \"AustinTX\", \"Austin\", \"Texas\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"AustinTX\"",
+                  "offset": 30
+                },
+                {
+                  "val": "\"Austin\"",
+                  "offset": 42
+                },
+                {
+                  "val": "\"Texas\"",
+                  "offset": 52
+                }
+              ],
+              "location": "cucumber.stepdefs.LoggingIn.address_of_the_new_patient_is(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@outline"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-22T19:43:59.918Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "cucumber.stepdefs.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 73,
+        "name": "Registera patient variant 2",
+        "description": "",
+        "id": "login-to-demo.openmrs-page;registera-patient-variant-2;;4",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "cucumber.stepdefs.Hooks.cleanup()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 20014200,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "user is logged in to demo.openmrs.org as admin",
+            "match": {
+              "location": "cucumber.stepdefs.LoggingIn.user_is_logged_in_to_demo_openmrs_org_as_admin()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "user creates a new patient with following data: \"Jack\", \"Daniels\", \"M\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Jack\"",
+                  "offset": 48
+                },
+                {
+                  "val": "\"Daniels\"",
+                  "offset": 56
+                },
+                {
+                  "val": "\"M\"",
+                  "offset": 67
+                }
+              ],
+              "location": "cucumber.stepdefs.LoggingIn.user_creates_a_new_patient_with_following_data(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "with extra information:\"13\", \"12\", \"1993\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"13\"",
+                  "offset": 23
+                },
+                {
+                  "val": "\"12\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"1993\"",
+                  "offset": 35
+                }
+              ],
+              "location": "cucumber.stepdefs.LoggingIn.with_extra_information(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000200,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "with address:\"AustinTX\", \"Austin\", \"Texas\", \"USA\", and \"78748\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"AustinTX\"",
+                  "offset": 13
+                },
+                {
+                  "val": "\"Austin\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"Texas\"",
+                  "offset": 35
+                },
+                {
+                  "val": "\"USA\"",
+                  "offset": 44
+                },
+                {
+                  "val": "\"78748\"",
+                  "offset": 55
+                }
+              ],
+              "location": "cucumber.stepdefs.LoggingIn.with_address_and(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "new patient has been registered with \"Jack\" and \"Daniels\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Jack\"",
+                  "offset": 37
+                },
+                {
+                  "val": "\"Daniels\"",
+                  "offset": 48
+                }
+              ],
+              "location": "cucumber.stepdefs.LoggingIn.new_patient_has_been_registered_with_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2001400,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "address of the new patient is \"AustinTX\", \"Austin\", \"Texas\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"AustinTX\"",
+                  "offset": 30
+                },
+                {
+                  "val": "\"Austin\"",
+                  "offset": 42
+                },
+                {
+                  "val": "\"Texas\"",
+                  "offset": 52
+                }
+              ],
+              "location": "cucumber.stepdefs.LoggingIn.address_of_the_new_patient_is(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@outline"
+          }
+        ]
+      }
+    ],
+    "name": "login to demo.openmrs page",
+    "description": "",
+    "id": "login-to-demo.openmrs-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/loggingin.feature",
+    "tags": []
+  }
+]

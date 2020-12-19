@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Parameter Runner">
+    <test name="Example">
+        <parameter name="FirstName" value="David"></parameter>
+        <parameter name="lastName" value="Test"></parameter>
+        <parameter name="FirstName" value="David"></parameter>
+        <parameter name="lastName" value="Hunt"></parameter>
+        <classes>
+            <class name="selenium_class.TestNGAnnotations.ParameterAnnotationPractice"></class>
+        </classes>
+    </test>
+</suite>
