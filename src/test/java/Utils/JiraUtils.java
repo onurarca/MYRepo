@@ -29,6 +29,15 @@ public class JiraUtils {
         System.out.println(value1);
         return value;
 
+        /*OR
+
+        return given().accept(ContentType.JSON).contentType(ContentType.JSON).body(PayloadUtils.getJiraAuthPayload())
+                .when().post("http://localhost:8080/rest/auth/1/session").then()
+                .statusCode(200).extract().response().jsonPath().getString("session.value");
+
+
+         */
+
 
 
 

@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/features",
         glue = "cucumber_class/stepdefs",
         tags = "@etsy",
-        dryRun = true
+        dryRun = false
                 )
 
 public class EtsyRunner {

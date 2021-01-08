@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = "src/test/resources/features",
         glue = "cucumber_class/stepdefs",
-        tags = "@get",
+        tags = "@get or @post",
         dryRun = false
 
               )
