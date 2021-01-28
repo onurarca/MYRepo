@@ -6,6 +6,7 @@ public class GitTest_Class {
 
 
         System.out.println("Hello World");
+        System.out.println("There is no short way of print");
 
     }
 
