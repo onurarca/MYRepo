@@ -44,7 +44,9 @@ public class GameOfThronesAPI {
             Map<String, Object> map = list.get(i);
             names.add(map.get("name"));
 
+
         }
+        System.out.println(names);
 
 
         Assert.assertTrue(names.size() > 100);

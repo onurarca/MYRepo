@@ -1,0 +1,14 @@
+<suite name="Smoke Test" parallel="methods" thread-count ="3">
+    <test name="... functionality">
+        <parameter name="" value="" ></parameter>
+        <classes>
+            <class name="path of the class">
+                <methods>
+                    <include name="validateHerokuAppSlider"/>
+                    <include name="moveSlider"/>
+                    <include name="ValidateGoogleSearch"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

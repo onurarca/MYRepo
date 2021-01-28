@@ -34,11 +34,11 @@ public class Practice {
     public void test3(){
         SoftAssert soft = new SoftAssert();
 
-        soft.assertEquals(5,5);
+        soft.assertEquals(5,5,"5-5");
         System.out.println("After soft assert 1");
-        soft.assertEquals(3,5);
+        soft.assertEquals(3,5,"3-5");
         System.out.println("After soft assert 2");
-        soft.assertEquals(6,6);
+        soft.assertEquals(6,5,"6-5");
         System.out.println("After soft assert 3");
         soft.assertAll();
         System.out.println("Test Assert All");

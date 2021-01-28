@@ -35,7 +35,7 @@ public class GetRequest {
         given().accept(ContentType.JSON)
                 .when().get("https://petstore.swagger.io/v2/pet/1020")
                 .then().statusCode(200).contentType(ContentType.JSON)
-                .and().body("id", Matchers.equalTo(1020))
+                .and().body("id", Matchers.equalTo(1020)).log().all()
                 .and().body("category.name", Matchers.is("Spaniel"));
 
     }
@@ -46,7 +46,7 @@ public class GetRequest {
         given().accept(ContentType.JSON)
                 .when().get("https://pokeapi.co/api/v2/ability")
                 .then().statusCode(200).contentType(ContentType.JSON)
-                .and().body("count",Matchers.equalTo(327))
+                .and().body("count",Matchers.equalTo(327)).log().all()
                 .and().body("results[2].name",Matchers.is("speed-boost"))
                 .and().body("results.name[2]", Matchers.equalTo("speed-boost"));
 

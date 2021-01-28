@@ -21,6 +21,8 @@ public class SliderImagePractice {
         WebElement cookies = driver.findElement(By.xpath("//button[@id='onetrust-accept-btn-handler']"));
         cookies.click();
 
+        Thread.sleep(3000);
+
         WebElement redCircle = driver.findElement(By.xpath("//div[contains(@class,'vertical')]//a[@role='slider']"));
 
         WebElement ten = driver.findElement(By.xpath("//div[contains(@class,'vertical')]//li[@title='10']"));
@@ -34,7 +36,7 @@ public class SliderImagePractice {
 
         Actions actions = new Actions(driver);
         actions.clickAndHold(redCircle)
-                .moveByOffset(0,44)
+                .moveByOffset(0,-44)
                 .release()
                 .perform();
 

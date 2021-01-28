@@ -22,7 +22,7 @@ import java.nio.file.Paths;
 public class PetstoreAPI {
 
     HttpClient client = HttpClientBuilder.create().build();
-    URIBuilder uriBuilder = uriBuilder = new URIBuilder();
+    URIBuilder uriBuilder  = new URIBuilder();
     @Before
     public void setup() throws URISyntaxException, IOException {
 

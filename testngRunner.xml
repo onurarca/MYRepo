@@ -1,4 +1,4 @@
-<suite name="XML Suite">
+<suite name="Smoke Suite">
     <test name = "Multiple Runner">
         <classes>
             <class name="selenium_class.ActionsPractice.ActionsIntro"></class>
