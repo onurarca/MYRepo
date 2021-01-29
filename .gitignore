@@ -1,3 +1,4 @@
 # Project exclude paths
 /target/
 /ScreenShots1605717250771.png
+/src/test/java/PracticeGit/IAmGitIgnore.java
