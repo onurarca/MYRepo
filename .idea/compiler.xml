@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="TechtorialSeleniumB6" />
+        <module name="SeleniumProject" />
       </profile>
     </annotationProcessing>
   </component>
