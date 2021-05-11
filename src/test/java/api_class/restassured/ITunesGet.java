@@ -10,6 +10,7 @@ import io.restassured.response.Response;
 import org.hamcrest.Matchers;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+import org.testng.asserts.SoftAssert;
 
 import java.util.List;
 import java.util.Map;
@@ -44,7 +45,7 @@ public class ITunesGet {
 
      List<Map<String,Object>> resultsDataList = (List<Map<String,Object>>) parsedResponse.get("results");
         assertEquals(50, resultsDataList.size());
-                
+
 
 
     }

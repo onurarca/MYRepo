@@ -8,10 +8,12 @@ import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 import io.restassured.specification.ResponseSpecification;
+import org.hamcrest.Matchers;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
+import java.io.File;
 import java.util.List;
 import java.util.Map;
 
@@ -37,6 +39,15 @@ public class RestAssuredAdv {
         given().spec(reqSpec)
                 .when().get()
                 .then().spec(respSpec);
+
+        File petPayLoad = new File("src/test/java/api_class/serialization/pet.json");
+        given().accept(ContentType.JSON).contentType(ContentType.JSON)
+                .body(petPayLoad)
+                .when().post()
+                .then().statusCode(200)
+                .and().body("id", Matchers.equalTo(876))
+                .and().body("name", Matchers.is("T-Rex"))
+                .and().body("status",Matchers.equalTo("monster"));
 
 
     }
